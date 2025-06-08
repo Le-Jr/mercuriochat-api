@@ -94,7 +94,12 @@ app = Flask(__name__)
 app.config.from_object(Config)
 
 # Middleware de segurança
-CORS(app, origins=os.getenv('ALLOWED_ORIGINS', '*').split(','))
+# CORS(app, origins=os.getenv('ALLOWED_ORIGINS', '*').split(','))
+ALLOWED_ORIGINS="https://localhost:5000,https://client.mercuriochat.com.br,http://localhost:3000" 
+
+CORS(app, origins= ALLOWED_ORIGINS.split(","))
+print(ALLOWED_ORIGINS.split(','))
+
 
 # Rate limiting
 limiter = Limiter(
@@ -173,9 +178,9 @@ def init_database():
         conn.commit()
 
 # Validações de segurança
-def validate_client_id(client_id: str) -> bool:
-    """Valida formato do client_id"""
-    return client_id and client_id.replace('_', '').replace('-', '').isalnum() and len(client_id) <= 50
+# def validate_client_id(client_id: str) -> bool:
+#     """Valida formato do client_id"""
+#     return client_id and client_id.replace('_', '').replace('-', '').isalnum() and len(client_id) <= 50
 
 def calculate_file_hash(filepath: str) -> str:
     """Calcula hash SHA-256 do arquivo"""
@@ -325,7 +330,7 @@ def processar():
         if not file or file.filename == '':
             return jsonify({"erro": "Arquivo inválido"}), 400
         
-        if not client_id or not validate_client_id(client_id):
+        if not client_id:
             return jsonify({"erro": "client_id inválido"}), 400
         
         if not allowed_file(file.filename):
@@ -403,14 +408,12 @@ def perguntar():
             return jsonify({"erro": "JSON inválido"}), 400
         
         question = data.get('question', '').strip()
-        client_id = data.get('client_id', '').strip()
+        client_id = data.get('client_id', '')
         
         if not question or not client_id:
             return jsonify({"erro": "Parâmetros 'question' e 'client_id' são obrigatórios"}), 400
         
-        if not validate_client_id(client_id):
-            return jsonify({"erro": "client_id inválido"}), 400
-        
+     
         # Verifica cache
         cache_key = get_cache_key(client_id, question)
         if redis_client:
@@ -501,8 +504,7 @@ Resposta:"""
 def client_info(client_id: str):
     """Informações sobre knowledge base do cliente"""
     try:
-        if not validate_client_id(client_id):
-            return jsonify({"erro": "client_id inválido"}), 400
+       
         
         with get_db_connection() as conn:
             # Info da knowledge base
