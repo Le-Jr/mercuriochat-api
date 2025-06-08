@@ -1,0 +1,424 @@
+2025-06-07 17:08:51,997 - __main__ - ERROR - Erro ao conectar Redis: Error 111 connecting to localhost:6379. Connection refused.
+2025-06-07 17:09:20,057 - __main__ - ERROR - Erro ao conectar Redis: Error 111 connecting to localhost:6379. Connection refused.
+2025-06-07 17:10:21,832 - __main__ - ERROR - Erro ao conectar Redis: Error 111 connecting to localhost:6379. Connection refused.
+2025-06-07 17:10:52,663 - __main__ - ERROR - Erro ao conectar Redis: Error 111 connecting to localhost:6379. Connection refused.
+2025-06-07 17:13:16,878 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 17:15:36,359 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 17:16:00,203 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 17:16:29,054 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 17:16:52,976 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 17:17:12,148 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 17:17:28,872 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 17:17:48,014 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 17:18:05,464 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 17:18:31,468 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 17:20:41,942 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 17:21:11,192 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 17:23:14,320 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 17:23:28,983 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 17:23:28,996 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2025-06-07 17:23:28,996 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 17:25:12,366 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 17:25:12] "GET /health HTTP/1.1" 200 -
+2025-06-07 17:27:11,508 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 17:27:11,520 - __main__ - INFO - Iniciando processamento do job carlos_0d5addf8b3027c8cf3e71ac7458bae4f
+2025-06-07 17:27:11,521 - __main__ - INFO - Job carlos_0d5addf8b3027c8cf3e71ac7458bae4f criado para cliente carlos
+2025-06-07 17:27:11,522 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 17:27:11] "[35m[1mPOST /processar HTTP/1.1[0m" 202 -
+2025-06-07 17:27:21,890 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 17:27:21,890 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 17:27:27,018 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-07 17:27:27,808 - __main__ - INFO - Job carlos_0d5addf8b3027c8cf3e71ac7458bae4f processado com sucesso
+2025-06-07 17:28:08,784 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 17:28:08,788 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 17:28:08] "GET /status/carlos_0d5addf8b3027c8cf3e71ac7458bae4f HTTP/1.1" 200 -
+2025-06-07 17:30:04,626 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 17:30:04,630 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 17:30:04,631 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 17:30:09,611 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 17:30:09,690 - __main__ - INFO - Pergunta processada para cliente carlos em 1.07s
+2025-06-07 17:30:09,696 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 17:30:09] "POST /perguntar HTTP/1.1" 200 -
+2025-06-07 17:31:45,581 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 17:31:45,583 - __main__ - INFO - Cache hit para cliente carlos
+2025-06-07 17:31:45,584 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 17:31:45] "POST /perguntar HTTP/1.1" 200 -
+2025-06-07 17:33:31,900 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 17:33:31,911 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2025-06-07 17:33:31,911 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 17:33:36,152 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 17:33:36,155 - __main__ - INFO - Cache hit para cliente carlos
+2025-06-07 17:33:36,156 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 17:33:36] "POST /perguntar HTTP/1.1" 200 -
+2025-06-07 17:33:57,464 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 17:34:08,747 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 17:34:08,747 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 17:34:14,506 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-07 17:34:16,599 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 17:34:16,619 - __main__ - INFO - Pergunta processada para cliente carlos em 1.61s
+2025-06-07 17:34:16,622 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 17:34:16] "POST /perguntar HTTP/1.1" 200 -
+2025-06-07 17:34:52,835 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 17:34:52,839 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 17:34:52,839 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 17:34:56,526 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 17:34:56,528 - __main__ - INFO - Pergunta processada para cliente carlos em 0.93s
+2025-06-07 17:34:56,530 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 17:34:56] "POST /perguntar HTTP/1.1" 200 -
+2025-06-07 17:41:59,470 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 17:41:59,485 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2025-06-07 17:41:59,486 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 17:42:05,275 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 17:42:05,278 - __main__ - INFO - Cache hit para cliente carlos
+2025-06-07 17:42:05,280 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 17:42:05] "POST /perguntar HTTP/1.1" 200 -
+2025-06-07 17:42:28,100 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 17:42:38,336 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 17:42:38,336 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 17:42:42,338 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-07 17:42:42,802 - __main__ - ERROR - Erro em /perguntar: BaseRetrievalQA.from_chain_type() got multiple values for argument 'llm'
+2025-06-07 17:42:42,808 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 17:42:42] "[35m[1mPOST /perguntar HTTP/1.1[0m" 500 -
+2025-06-07 17:43:28,750 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 17:43:28,753 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 17:43:28,753 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 17:43:31,112 - __main__ - ERROR - Erro em /perguntar: BaseRetrievalQA.from_chain_type() got multiple values for argument 'llm'
+2025-06-07 17:43:31,113 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 17:43:31] "[35m[1mPOST /perguntar HTTP/1.1[0m" 500 -
+2025-06-07 17:43:49,269 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 17:43:49,284 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2025-06-07 17:43:49,284 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 17:43:51,996 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 17:44:01,576 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 17:44:01,576 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 17:44:06,485 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-07 17:44:08,465 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 17:44:08,494 - __main__ - ERROR - Erro em /perguntar: Invalid input of type: 'dict'. Convert to a bytes, string, int or float first.
+2025-06-07 17:44:08,498 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 17:44:08] "[35m[1mPOST /perguntar HTTP/1.1[0m" 500 -
+2025-06-07 17:45:26,568 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 17:45:26,572 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 17:45:26,572 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 17:45:29,695 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 17:45:29,703 - __main__ - ERROR - Erro em /perguntar: Invalid input of type: 'dict'. Convert to a bytes, string, int or float first.
+2025-06-07 17:45:29,710 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 17:45:29] "[35m[1mPOST /perguntar HTTP/1.1[0m" 500 -
+2025-06-07 17:53:57,648 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 17:53:57,661 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2025-06-07 17:53:57,662 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 17:54:04,978 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 17:54:14,848 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 17:54:14,849 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 17:54:19,665 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-07 17:54:20,100 - __main__ - ERROR - Erro em /perguntar: cannot access local variable 'prompt_template' where it is not associated with a value
+2025-06-07 17:54:20,106 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 17:54:20] "[35m[1mPOST /perguntar HTTP/1.1[0m" 500 -
+2025-06-07 17:55:55,051 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 17:55:55,054 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 17:55:55,055 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 17:55:57,331 - __main__ - ERROR - Erro em /perguntar: cannot access local variable 'prompt_template' where it is not associated with a value
+2025-06-07 17:55:57,334 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 17:55:57] "[35m[1mPOST /perguntar HTTP/1.1[0m" 500 -
+2025-06-07 17:56:10,682 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 17:56:10,698 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2025-06-07 17:56:10,698 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 17:56:12,825 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 17:56:22,595 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 17:56:22,595 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 17:56:27,026 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-07 17:56:27,468 - __main__ - ERROR - Erro em /perguntar: 1 validation error for StuffDocumentsChain
+  Value error, document_variable_name context was not found in llm_chain input_variables: ['question'] [type=value_error, input_value={'llm_chain': LLMChain(ve...None, 'callbacks': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+2025-06-07 17:56:27,471 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 17:56:27] "[35m[1mPOST /perguntar HTTP/1.1[0m" 500 -
+2025-06-07 17:57:33,177 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 17:57:33,189 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2025-06-07 17:57:33,190 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 17:57:36,099 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 17:57:45,738 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 17:57:45,738 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 17:57:50,362 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-07 17:57:51,056 - __main__ - ERROR - Erro em /perguntar: 1 validation error for StuffDocumentsChain
+  Value error, document_variable_name context was not found in llm_chain input_variables: ['question'] [type=value_error, input_value={'llm_chain': LLMChain(ve...None, 'callbacks': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+2025-06-07 17:57:51,060 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 17:57:51] "[35m[1mPOST /perguntar HTTP/1.1[0m" 500 -
+2025-06-07 17:59:24,430 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 17:59:24,443 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2025-06-07 17:59:24,443 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 17:59:26,007 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 17:59:36,130 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 17:59:36,131 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 17:59:40,868 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-07 17:59:41,281 - __main__ - ERROR - Erro em /perguntar: 'context'
+2025-06-07 17:59:41,284 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 17:59:41] "[35m[1mPOST /perguntar HTTP/1.1[0m" 500 -
+2025-06-07 18:02:23,716 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 18:02:23,730 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2025-06-07 18:02:23,730 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 18:02:25,256 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:02:35,016 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 18:02:35,016 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 18:02:39,928 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-07 18:02:40,365 - __main__ - ERROR - Erro em /perguntar: 'context'
+2025-06-07 18:02:40,367 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:02:40] "[35m[1mPOST /perguntar HTTP/1.1[0m" 500 -
+2025-06-07 18:03:49,052 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 18:03:49,068 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2025-06-07 18:03:49,068 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 18:03:52,823 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:04:00,200 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 18:04:00,200 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 18:04:04,406 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-07 18:04:04,736 - __main__ - ERROR - Erro em /perguntar: 2 validation errors for RetrievalQA
+retriever
+  Field required [type=missing, input_value={'combine_documents_chain...ource_documents': False}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+context
+  Extra inputs are not permitted [type=extra_forbidden, input_value=VectorStoreRetriever(tags...search_kwargs={'k': 10}), input_type=VectorStoreRetriever]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+2025-06-07 18:04:04,737 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:04:04] "[35m[1mPOST /perguntar HTTP/1.1[0m" 500 -
+2025-06-07 18:04:31,398 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 18:04:31,407 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2025-06-07 18:04:31,407 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 18:04:35,164 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:04:40,991 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 18:04:40,991 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 18:04:45,018 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-07 18:04:45,341 - __main__ - ERROR - Erro em /perguntar: 'context'
+2025-06-07 18:04:45,343 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:04:45] "[35m[1mPOST /perguntar HTTP/1.1[0m" 500 -
+2025-06-07 18:05:40,126 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 18:05:40,133 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2025-06-07 18:05:40,133 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 18:05:40,677 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:05:46,517 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 18:05:46,518 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 18:05:50,310 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-07 18:05:50,608 - __main__ - ERROR - Erro em /perguntar: 'context'
+2025-06-07 18:05:50,610 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:05:50] "[35m[1mPOST /perguntar HTTP/1.1[0m" 500 -
+2025-06-07 18:06:28,471 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 18:06:28,478 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2025-06-07 18:06:28,478 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 18:06:54,827 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:07:00,767 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 18:07:00,767 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 18:07:04,694 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-07 18:07:04,957 - __main__ - ERROR - Erro em /perguntar: 'context'
+2025-06-07 18:07:04,958 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:07:04] "[35m[1mPOST /perguntar HTTP/1.1[0m" 500 -
+2025-06-07 18:09:08,347 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 18:09:08,356 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2025-06-07 18:09:08,356 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 18:09:11,620 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:09:17,664 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 18:09:17,665 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 18:09:21,281 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-07 18:09:21,593 - __main__ - ERROR - Erro em /perguntar: BaseModel.__init__() takes 1 positional argument but 2 were given
+2025-06-07 18:09:21,596 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:09:21] "[35m[1mPOST /perguntar HTTP/1.1[0m" 500 -
+2025-06-07 18:11:16,921 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 18:11:16,928 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2025-06-07 18:11:16,928 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 18:11:21,036 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:11:26,882 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 18:11:26,882 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 18:11:30,765 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-07 18:11:31,032 - __main__ - ERROR - Erro em /perguntar: 'context'
+2025-06-07 18:11:31,034 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:11:31] "[35m[1mPOST /perguntar HTTP/1.1[0m" 500 -
+2025-06-07 18:14:02,014 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 18:14:02,023 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2025-06-07 18:14:02,023 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 18:14:06,146 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:14:11,753 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 18:14:11,753 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 18:14:15,357 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-07 18:14:15,663 - __main__ - INFO - Pergunta feita: quero editar vídeos, o que me recomenda
+2025-06-07 18:14:15,671 - __main__ - ERROR - Erro em /perguntar: Missing some input keys: {'query'}
+2025-06-07 18:14:15,672 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:14:15] "[35m[1mPOST /perguntar HTTP/1.1[0m" 500 -
+2025-06-07 18:14:43,705 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 18:14:43,715 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2025-06-07 18:14:43,715 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 18:14:48,187 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:14:53,837 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 18:14:53,837 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 18:14:57,549 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-07 18:14:57,850 - __main__ - INFO - Pergunta feita: quero editar vídeos, o que me recomenda
+2025-06-07 18:14:59,488 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 18:14:59,505 - __main__ - INFO - Resultado do invoke: {'query': 'quero editar vídeos, o que me recomenda', 'result': 'Olá!\n\nSe você quer editar vídeos, eu recomendaria o "Curso de Edição de Vídeo com DaVinci Resolve". Este curso é específico para edição de vídeos para YouTube e redes sociais e tem uma duração de 12 horas.\n\nInfelizmente, o curso está indisponível no momento. Mas você pode verificar o link https://exemplo.com/edicao-video para mais informações.\n\nSe você tiver alguma outra dúvida ou precisar de mais recomendações, basta perguntar!'}
+2025-06-07 18:14:59,509 - __main__ - INFO - Pergunta processada para cliente carlos em 1.66s
+2025-06-07 18:14:59,510 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:14:59] "POST /perguntar HTTP/1.1" 200 -
+2025-06-07 18:17:04,684 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 18:17:04,696 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2025-06-07 18:17:04,696 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 18:17:53,803 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:17:53,966 - __main__ - INFO - Iniciando processamento do job teste123_f71de78aaf507a90f98f80908f66fed2
+2025-06-07 18:17:53,966 - __main__ - INFO - Job teste123_f71de78aaf507a90f98f80908f66fed2 criado para cliente teste123
+2025-06-07 18:17:53,975 - __main__ - ERROR - Erro no processamento do job teste123_f71de78aaf507a90f98f80908f66fed2: `pypdf` package not found, please install it with `pip install pypdf`
+2025-06-07 18:17:53,980 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:17:53] "[35m[1mPOST /processar HTTP/1.1[0m" 202 -
+2025-06-07 18:18:05,419 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:18:05,422 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:18:05] "GET /status/teste123_f71de78aaf507a90f98f80908f66fed2 HTTP/1.1" 200 -
+2025-06-07 18:18:07,460 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:18:07,462 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:18:07] "GET /status/teste123_f71de78aaf507a90f98f80908f66fed2 HTTP/1.1" 200 -
+2025-06-07 18:18:08,657 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:18:08,659 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:18:08] "GET /status/teste123_f71de78aaf507a90f98f80908f66fed2 HTTP/1.1" 200 -
+2025-06-07 18:18:11,617 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:18:11,619 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:18:11] "GET /status/teste123_f71de78aaf507a90f98f80908f66fed2 HTTP/1.1" 200 -
+2025-06-07 18:18:12,271 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:18:12,273 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:18:12] "GET /status/teste123_f71de78aaf507a90f98f80908f66fed2 HTTP/1.1" 200 -
+2025-06-07 18:18:12,458 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:18:12,460 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:18:12] "GET /status/teste123_f71de78aaf507a90f98f80908f66fed2 HTTP/1.1" 200 -
+2025-06-07 18:18:12,641 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:18:12,644 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:18:12] "GET /status/teste123_f71de78aaf507a90f98f80908f66fed2 HTTP/1.1" 200 -
+2025-06-07 18:18:12,797 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:18:12,802 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:18:12] "GET /status/teste123_f71de78aaf507a90f98f80908f66fed2 HTTP/1.1" 200 -
+2025-06-07 18:18:12,971 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:18:12,973 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:18:12] "GET /status/teste123_f71de78aaf507a90f98f80908f66fed2 HTTP/1.1" 200 -
+2025-06-07 18:18:13,121 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:18:13,123 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:18:13] "GET /status/teste123_f71de78aaf507a90f98f80908f66fed2 HTTP/1.1" 200 -
+2025-06-07 18:18:13,285 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:18:13,287 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:18:13] "GET /status/teste123_f71de78aaf507a90f98f80908f66fed2 HTTP/1.1" 200 -
+2025-06-07 18:18:13,447 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:18:13,450 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:18:13] "GET /status/teste123_f71de78aaf507a90f98f80908f66fed2 HTTP/1.1" 200 -
+2025-06-07 18:18:13,592 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:18:13,594 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:18:13] "GET /status/teste123_f71de78aaf507a90f98f80908f66fed2 HTTP/1.1" 200 -
+2025-06-07 18:18:51,681 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 18:18:51,689 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2025-06-07 18:18:51,690 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 18:19:01,347 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:19:01,503 - __main__ - INFO - Iniciando processamento do job teste123_4f2781d7fb2f58918f564896e35d3c1c
+2025-06-07 18:19:01,503 - __main__ - INFO - Job teste123_4f2781d7fb2f58918f564896e35d3c1c criado para cliente teste123
+2025-06-07 18:19:01,516 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:19:01] "[35m[1mPOST /processar HTTP/1.1[0m" 202 -
+2025-06-07 18:19:06,770 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:19:06,773 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:19:06] "GET /status/teste123_4f2781d7fb2f58918f564896e35d3c1c HTTP/1.1" 200 -
+2025-06-07 18:19:11,665 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 18:19:11,665 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 18:19:12,856 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:19:12,860 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:19:12] "GET /status/teste123_4f2781d7fb2f58918f564896e35d3c1c HTTP/1.1" 200 -
+2025-06-07 18:19:15,519 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-07 18:19:16,327 - __main__ - ERROR - Erro no processamento do job teste123_4f2781d7fb2f58918f564896e35d3c1c: 'Chroma' object has no attribute 'persist'
+2025-06-07 18:19:25,144 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:19:25,146 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:19:25] "GET /status/teste123_4f2781d7fb2f58918f564896e35d3c1c HTTP/1.1" 200 -
+2025-06-07 18:19:26,492 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:19:26,495 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:19:26] "GET /status/teste123_4f2781d7fb2f58918f564896e35d3c1c HTTP/1.1" 200 -
+2025-06-07 18:21:28,291 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 18:21:28,297 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2025-06-07 18:21:28,297 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 18:21:36,797 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:21:36,952 - __main__ - INFO - Iniciando processamento do job teste123_e0d033e358a238997f50a61e774464aa
+2025-06-07 18:21:36,952 - __main__ - INFO - Job teste123_e0d033e358a238997f50a61e774464aa criado para cliente teste123
+2025-06-07 18:21:36,965 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:21:36] "[35m[1mPOST /processar HTTP/1.1[0m" 202 -
+2025-06-07 18:21:40,846 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:21:40,911 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:21:40] "GET /status/teste123_e0d033e358a238997f50a61e774464aa HTTP/1.1" 200 -
+2025-06-07 18:21:47,215 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 18:21:47,215 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 18:21:50,766 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-07 18:21:51,593 - __main__ - INFO - Job teste123_e0d033e358a238997f50a61e774464aa processado com sucesso
+2025-06-07 18:21:51,980 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:21:51,983 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:21:51] "GET /status/teste123_e0d033e358a238997f50a61e774464aa HTTP/1.1" 200 -
+2025-06-07 18:22:23,569 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:22:23,576 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 18:22:23,576 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 18:22:26,225 - __main__ - INFO - Pergunta feita: Com qual idade meu filho pode começar o curso
+2025-06-07 18:22:27,314 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 18:22:27,325 - __main__ - INFO - Resultado do invoke: {'query': 'Com qual idade meu filho pode começar o curso', 'result': 'Olá!\n\nDe acordo com o documento, é recomendado que o filho(a) comece o curso com 15 a 17 anos de idade. No entanto, é importante notar que o aprendizado é um processo único para cada indivíduo, e podem haver exceções. Nesses casos, é recomendado que você trate conosco para ajudá-lo a escolher em qual turma o seu filho terá um melhor aproveitamento do nosso currículo.'}
+2025-06-07 18:22:27,329 - __main__ - INFO - Pergunta processada para cliente teste123 em 1.10s
+2025-06-07 18:22:27,329 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:22:27] "POST /perguntar HTTP/1.1" 200 -
+2025-06-07 18:23:44,876 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:23:44,879 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 18:23:44,879 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 18:27:36,949 - __main__ - INFO - Redis conectado com sucesso
+2025-06-07 18:27:36,959 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2025-06-07 18:27:36,960 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 18:27:52,949 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:27:59,172 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 18:27:59,172 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 18:28:00,063 - __main__ - ERROR - Erro em /perguntar: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7a8c287d9a30>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: dd6db142-0f55-44ef-99b9-e887c287aafe)')
+2025-06-07 18:28:00,065 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:28:00] "[35m[1mPOST /perguntar HTTP/1.1[0m" 500 -
+2025-06-07 18:28:25,857 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:28:25,859 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 18:28:25,859 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 18:28:26,075 - __main__ - ERROR - Erro em /perguntar: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7a8c287d9ee0>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: e9ab1b09-fa34-4266-9128-f38a73e3a65f)')
+2025-06-07 18:28:26,075 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:28:26] "[35m[1mPOST /perguntar HTTP/1.1[0m" 500 -
+2025-06-07 18:30:10,006 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:30:10,008 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 18:30:10,008 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 18:30:14,793 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-07 18:30:15,105 - __main__ - INFO - Pergunta feita: Me fale mais sobre os cronogramas
+2025-06-07 18:30:19,461 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 18:30:19,488 - __main__ - INFO - Resultado do invoke: {'query': 'Me fale mais sobre os cronogramas', 'result': 'Os cronogramas são oferecidos em diferentes durações para atender às necessidades dos alunos. São disponibilizados cronogramas de 2 anos, 3 anos e 4 anos. \n\nO cronograma de 4 anos é ideal para os alunos que estão chegando ao nível fundamental, pois eles finalizarão todo o conteúdo do QFF antes de entrar no Ensino Médio. A idade recomendada é de 10 a 12 anos.\n\nO cronograma de 3 anos é ideal para os alunos que estão cursando o sétimo ou oitavo ano do Nível Fundamental e possuem uma maturidade um pouco maior para estudar os conteúdos. A idade recomendada é de 12 a 14 anos.\n\nO cronograma de 2 anos é recomendado para os alunos que estão no último ano do Nível Fundamental (nono ano) ou no primeiro ano do Nível Médio e já possuem maturidade para estudar uma carga maior de conteúdo. A idade recomendada é de 15 a 17 anos.\n\nÉ importante notar que as idades e recomendações são sugeridas, mas o aprendizado é um processo único para cada indivíduo, então podem haver exceções. Nesses casos, é recomendado tratar conosco para ajudá-los a escolher em qual turma o seu filho terá um melhor aproveitamento do nosso currículo.'}
+2025-06-07 18:30:19,489 - __main__ - INFO - Pergunta processada para cliente teste123 em 4.38s
+2025-06-07 18:30:19,490 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:30:19] "POST /perguntar HTTP/1.1" 200 -
+2025-06-07 18:33:00,306 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:33:00,309 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 18:33:00,309 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 18:33:02,769 - __main__ - INFO - Pergunta feita: Como decido sobre a tutoria
+2025-06-07 18:33:03,914 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 18:33:03,917 - __main__ - INFO - Resultado do invoke: {'query': 'Como decido sobre a tutoria', 'result': 'Olá!\n\nDe acordo com os documentos fornecidos, você já adquiriu o material e acesso à plataforma. Até começar a tutoria, você pode estudar as aulas extras que podem ser assistidas antes de começar, de acordo com cada cronograma. Outra opção é assistir às aulas gravadas e estudar os materiais antes, mas durante a tutoria, teremos a semana certa para conversar sobre cada aula.\n\nEspero que isso tenha ajudado!'}
+2025-06-07 18:33:03,917 - __main__ - INFO - Pergunta processada para cliente teste123 em 1.15s
+2025-06-07 18:33:03,918 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:33:03] "POST /perguntar HTTP/1.1" 200 -
+2025-06-07 18:33:47,028 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:33:47,029 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 18:33:47,029 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 18:33:49,616 - __main__ - INFO - Pergunta feita: Devo ou não adquirir a tutoria
+2025-06-07 18:33:50,607 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 18:33:50,609 - __main__ - INFO - Resultado do invoke: {'query': 'Devo ou não adquirir a tutoria', 'result': 'Olá!\n\nVocê já adquiriu o material e acesso à plataforma, então pode começar a estudar antes de começar a tutoria. Você tem duas opções: assistir às aulas extras e estudar os materiais antes, ou assistir às aulas gravadas e estudar os materiais antes, e então teremos a semana certa para conversar sobre cada aula durante a tutoria.\n\nEspero que isso tenha ajudado!'}
+2025-06-07 18:33:50,609 - __main__ - INFO - Pergunta processada para cliente teste123 em 0.99s
+2025-06-07 18:33:50,610 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:33:50] "POST /perguntar HTTP/1.1" 200 -
+2025-06-07 18:34:30,710 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:34:30,713 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 18:34:30,713 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 18:34:33,100 - __main__ - INFO - Pergunta feita: Mas eu ainda não comprei o curso, eu devo ainda assim adquirir a tutoria?
+2025-06-07 18:34:34,538 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 18:34:34,540 - __main__ - INFO - Resultado do invoke: {'query': 'Mas eu ainda não comprei o curso, eu devo ainda assim adquirir a tutoria?', 'result': 'Olá! Muito obrigado por sua pergunta. Sim, você pode adquirir a tutoria mesmo não tendo comprado o curso ainda. Na verdade, é oferecido em duas formas: com tutoria e sem tutoria. Se você acha que precisa de mais orientação e apoio, a tutoria pode ser uma ótima opção. Além disso, se você tem disponibilidade de 1 hora e 30 minutos semanais, a tutoria pode ser uma boa escolha.'}
+2025-06-07 18:34:34,540 - __main__ - INFO - Pergunta processada para cliente teste123 em 1.44s
+2025-06-07 18:34:34,541 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:34:34] "POST /perguntar HTTP/1.1" 200 -
+2025-06-07 18:35:51,523 - __main__ - WARNING - API_KEY não configurada - modo desenvolvimento
+2025-06-07 18:35:51,525 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-06-07 18:35:51,525 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-07 18:35:54,352 - __main__ - INFO - Pergunta feita: Vocês vendem módulos separados
+2025-06-07 18:35:55,126 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 18:35:55,129 - __main__ - INFO - Resultado do invoke: {'query': 'Vocês vendem módulos separados', 'result': 'Sim, é possível comprar os materiais em Combos ou em cada módulo individualmente.'}
+2025-06-07 18:35:55,129 - __main__ - INFO - Pergunta processada para cliente teste123 em 0.78s
+2025-06-07 18:35:55,130 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:35:55] "POST /perguntar HTTP/1.1" 200 -
