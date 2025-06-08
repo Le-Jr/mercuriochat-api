@@ -4,3 +4,6 @@ venv
 data
 db
 uploads
+vector_db
+rag_api.log
+rag_metadata.db
